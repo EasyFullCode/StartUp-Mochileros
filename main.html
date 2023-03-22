@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOCHILEROS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+   
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="registro.php">
+    <link rel="stylesheet" href="js/script.js">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+    
+<!-- Sección header  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>M</span>OCHILEROS</a>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#packages">Destinos</a>
+        <a href="#services">Servicios</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Contáctenos</a>
+    </nav>
+
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>MOCHILEROS</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>CONOCE NUESTRO PERÚ AHORA</h3>
+        <p>El perú tiene mucho que ofrecer, aventurate a descubrirlo!</p>
+        <a href="#packages" class="btn">Quiero descubrirlo</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/bosque.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/bosque2.mp4"></span>
+        <span class="vid-btn" data-src="images/cañon.mp4"></span>
+        <span class="vid-btn" data-src="images/viaje.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/bosque.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- Sección Paquetes  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>D</span>
+        <span>E</span>
+        <span>S</span>
+        <span>T</span>
+        <span>I</span>
+        <span>N</span>
+        <span>O</span>
+        <span>S</span>
+    </h1>
+
+    <p class="intro">Bienvenido a <b>MOCHILEROS</b>, en esta sección te mostraremos 6 increibles destinos elegidos por nosotros, con los cuales te aseguraremos una estupenda experiencia.</p><br>
+    <p class="intro">También te daremos un Monto Básico y uno Premium, para que usted considere cual es su mejor opción, siendo estos montos estructurados de esta manera:</p><br>
+    <p class="intro"><b>Monto Básico:</b> Viaje en Aerolinea Standard + Hospedaje + Almuerzo por un día.</p>
+    <p class="intro"><b>Monto Premium:</b> Viaje en Aerolinea Vip + Hospedaje + Guia Turistico + Atracciones dentro del destino + Almuerzo por un dia.</p><br>
+    <p class="intro"><b>Para reservar, vaya directamente a la sección -> </b></p> <a class="introa" href="#contact">CONTÁCTENOS</a><br><br>
+
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cañoncillo1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Bosque Natural el Cañoncillo</h3>
+                <p>Ubicado en La Libertad, uno de los pocos relictos de bosque seco que quedan en la costa peruana está en el ACP El Cañoncillo. Suaves caminatas por Huaca Colorada y baños refrescantes en sus lagunas naturales son las clásicas actividades que se pueden realizar aquí.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Monto Básico: <span>PEN 150.00</span> </div>
+                <div class="price"> Monto Premium: <span>PEN 200.00</span> </div>
+                <a href="https://www.conservamospornaturaleza.org/destino/bosque-del-canoncillo/" target="_blank" class="btn">Saber más</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Millpu.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Millpu </h3>
+                <p>¿Te imaginas bañarte en aguas turquesas rodeado por un escenario fuera de lo convencional? Las piscinas naturales de Millpu, en Ayacucho, te dan la oportunidad de pasar un mágico momento en medio de la naturaleza.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Monto Básico: <span>PEN 130.00</span> </div>
+                <div class="price"> Monto Premium: <span>PEN 190.00</span> </div>
+                <a href="https://www.peru.travel/es/masperu/millpu-conoce-estas-hermosas-piscinas-naturales-en-la-sierra-peruana" target="_blank" class="btn">Saber más</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pampachiri1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pampachiri </h3>
+                <p>En el departamento de Apurímac encontrarás uno de los destinos turísticos más importantes de Perú: Pampachiri, un sitio imperdible para los amantes de la naturaleza y el misterio. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Monto Básico: <span>PEN 150.00</span> </div>
+                <div class="price"> Monto Premium: <span>PEN 180.00</span> </div>
+                <a href="https://viajerosocultos.com/pampachiri-y-bosques-de-piedra/" target="_blank" class="btn">Saber más</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/autisha1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Cañon de Autisha </h3>
+                <p>Se encuentra a tan solo 3 horas de Lima, en la provincia de Huarochirí, tiene uno de los paisajes naturales más espectaculares del país. La profundidad del cañón es de 170 metros y es particular para los que buscan algo extremo en el viaje, lleno de adrenalina desde principio a final.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Monto Básico: <span>PEN 100.00</span> </div>
+                <div class="price"> Monto Premium: <span>PEN 160.00</span> </div>
+                <a href="https://mapitrekkingperu.com/producto/canon-de-autisha-full-day/" target="_blank" class="btn">Saber más</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/tambopata1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Reserva Nacional de Tambopata </h3>
+                <p>La reserva alberga 1200 especies de mariposas, 169 especies de mamíferos, alrededor de 632 especies de aves y cientos de especies de árboles y plantas. De hecho, esta reserva y la región circundante es uno de los lugares con mayor biodiversidad del planeta.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Monto Básico: <span>PEN 200.00</span> </div>
+                <div class="price"> Monto Premium: <span>PEN 280.00</span> </div>
+                <a href="https://rainforestexpeditions.com/es/reserva-nacional-tambopata/" target="_blank" class="btn">Saber más</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pisac1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pisac </h3>
+                <p>El Parque Arqueológico Nacional de Pisac está constituido por agrupamientos de restos arqueológicos entre los cuales destacan andenes, acueductos, caminos asociados a murallas y portadas, cauces hídricos canalizados, cementerios, puentes, etc.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Monto Básico: <span>PEN 180.00</span> </div>
+                <div class="price"> Monto Premium: <span>PEN 250.00</span> </div>
+                <a href="https://www.cuscoperu.com/es/viajes/valle-sagrado-de-los-incas/centros-arqueologicos/pisac" target="_blank" class="btn">Saber más</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Sección Servicios  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>I</span>
+        <span>O</span>
+        <span>S</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Hoteles</h3>
+            <p>Le brindamos un listado de todos los Hoteles cercanos a cada uno de los destinos que le ofrecemos, garantizando comodidad y buena atención.</p>
+            <a class="more" href="images/Hoteles.pdf">Saber más</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Restaurantes</h3>
+            <p>Aqui encontrará los mejores restaurantes aledaños a estos destinos, donde digustará deliciosos platos de la propia región y de toda variedad.</p>
+            <a class="more" href="images/RESTAURANTES .pdf">Saber más</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Guias turísticos</h3>
+            <p>Para conocer a fondo los detalles como el origen o caracteristicas importantes de estos lugares, no hay nada mejor que un guía especializado que le brindara un excelente recorrido.</p>
+            <a class="more" href="images/GUÍA.pdf">Saber más</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Viajes más rápidos</h3>
+            <p>¿Curiosidad por cuanto tiempo le llevará llegar a estos lugares por tierra y por aire?, aqui le brindamos detalles acerca del tiempo y rango de precios de las mejores aerolineas de nuestro país y también por via terrestres con los buses interprovinciales.</p>
+            <a class="more" href="images/ViajesU.pdf">Saber más</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Aventuras</h3>
+            <p>¿Que más me ofrece estos lugares?, en esta sección le brindaremos información acerca de todos los atractivos que tienen los destinos, más el rango de precios.</p>
+            <a class="more" href="images/atractivos turisticos.pdf">Saber más</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Más detalles</h3>
+            <p>Cada semana actualizamos nuestros destinos, asi que estamos preparando muchos más lugares increíbles que visitar.</p>
+            <a class="more" href="">Saber más</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Sección Galería  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Í</span>
+        <span>A</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cañoncillo2.png" alt="">
+            <div class="content">
+                <h3>El Cañoncillo</h3>
+                <p>Excelente elección para practicar deportes de aventura.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/millpu2.jpg" alt="">
+            <div class="content">
+                <h3>Millpu</h3>
+                <p>Cansado de la Lima Gris?, esta es una buena elección para liberar esa tensión en estas piscinas naturales.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/pampachiri2.jpg" alt="">
+            <div class="content">
+                <h3>Pampachiri</h3>
+                <p>El ambiente de los andes peruanos no tiene comparación, siempre hay algo nuevo para conocer.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/autisha2.jpg" alt="">
+            <div class="content">
+                <h3>Cañon de Autisha</h3>
+                <p>Elección para valientes!, probémonos a nosotros mismos y a nuestra familia de que estamos hechos.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/tambopata2.jpg" alt="">
+            <div class="content">
+                <h3>Tambopata</h3>
+                <p>La magia de nuestra hermosa selva peruana en todo su explendor.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/pisac2.jpg" alt="">
+            <div class="content">
+                <h3>Pisac</h3>
+                <p>¿Curiosidad por edificaciones de nuestros ancestros?, pues Pisac es la mejor opción para llenarnos de conocimientos.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/hotelu.jpeg" alt="">
+            <div class="content">
+                <h3>Hospedajes</h3>
+                <p>Lo silvestre siempre resalta y la comodidad es asegurada.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/rest.jpg" alt="">
+            <div class="content">
+                <h3>Restaurantes</h3>
+                <p>¿Siempre los mismos platos?, animate a probar variedad de potajes y experimenta la gastronomia peruana.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/guia.jpg" alt="">
+            <div class="content">
+                <h3>Guias</h3>
+                <p>Una buena compañia que te brinde seguridad y confianza hace más placentero un viaje, es por ello que contar con un guia turistico, es la mejor opción.</p>
+                <!--<a href="#" class="btn">see more</a>-->
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Sección Contacto -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>Á</span>
+        <span>C</span>
+        <span>T</span>
+        <span>E</span>
+        <span>N</span>
+        <span>O</span>
+        <span>S</span>
+    </h1>
+
+    <p class="contacteme">Esperamos la experiencia <b>MOCHILEROS</b> haya sido de su agrado, en esta sección podrá solicitar información más detallada y nuestros colaboradores se comunicaran con usted en la brevedad. </p>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="registro.php" method="post" name="form">
+            <div class="inputBox">
+                <input type="text" placeholder="nombres" name="nombres" required/>
+                <input type="text" placeholder="apellidos" name="apellidos" required/>
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="numero" name="numero" required/>
+                <input type="email" placeholder="email" name="email" required/>
+                <!--<input type="email" placeholder="email">-->
+                <!--<input type="text" placeholder="subject">-->
+            </div>
+            <textarea placeholder="Escriba el destino que más le intereso por favor" name="mensaje" id="" cols="30" rows="10" required></textarea>
+            <input type="submit" class="btn" value="ENVIAR">
+        </form>
+
+    </div>
+    
+</section>
+
+
+
+<!-- Sección Footer  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Sobre nosotros</h3>
+            <p>Somos estudiantes de la carrera de Ingeniera de Sistemas, de la Univesidad Autonoma del Perú, y realizamos esta StartUp, con la finalidad de medir su rentabilidad.</p>
+        </div>
+        <div class="box">
+            <h3>Locaciones utilizadas</h3>
+            <a href="#">La Libertad</a>
+            <a href="#">Ayacucho</a>
+            <a href="#">Apurimac</a>
+            <a href="#">Huarochirí</a>
+            <a href="#">Tambopata</a>
+        </div>
+        <div class="box">
+            <h3>Enlaces rápidos</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Destinos</a>
+            <a href="#">Servicios</a>
+            <a href="#">Galeria</a>
+            <a href="#">Contáctenos</a>
+        </div>
+        <div class="box">
+            <h3>Siguenos</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> crado por <span> grupo 2 - Ingenieria Economica </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
